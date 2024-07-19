@@ -5,7 +5,7 @@
 	"end": {
 		"dateTime": "{{new Date(moment(new Date().toISOString()).add(1, "hour"))}}"
 	},
-	"description": {{inp_newMeetingAgenda.text}},
-	"summary": "{{inp_newEventTitle.text}}",
+	"description": {{"Description:\n" + inp_newMeetingAgenda.text}},
+	"summary": "{{"Summary:\n" + inp_newEventTitle.text}}",
 	"attendees": {{msl_eventAttendees.selectedOptionValues.map(v => {return {email: v}})}}
 }

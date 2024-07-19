@@ -4,7 +4,7 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "bottomRow": 23,
   "boxShadow": "none",
-  "defaultOptionValue": "15",
+  "defaultOptionValue": "30",
   "displayName": "Select",
   "dynamicBindingPathList": [
     {
@@ -61,7 +61,7 @@
     "dropdown"
   ],
   "serverSideFiltering": false,
-  "sourceData": "[\n  {\n    \"label\": \"15 min Meeting\",\n    \"value\": \"15\"\n  },\n  {\n    \"label\": \"30 min Meeting\",\n    \"value\": \"30\"\n  },\n  {\n    \"label\": \"1 hour Meeting\",\n    \"value\": \"60\"\n  }\n]",
+  "sourceData": "[\n  {\n    \"label\": \"15 minutes\",\n    \"value\": \"15\"\n  },\n  {\n    \"label\": \"30 minutes\",\n    \"value\": \"30\"\n  },\n  {\n    \"label\": \"1 hour(s)\",\n    \"value\": \"60\"\n  }\n]",
   "tags": [
     "Suggested",
     "Select"
