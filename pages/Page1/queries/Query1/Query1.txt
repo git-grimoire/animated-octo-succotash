@@ -1,0 +1,1 @@
+SELECT * FROM public."users" WHERE name is NOT NULL AND gender IN ('male', 'female');
