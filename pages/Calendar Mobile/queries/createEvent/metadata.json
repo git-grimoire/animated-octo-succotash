@@ -11,7 +11,7 @@
           "value": "application/json"
         }
       ],
-      "body": "{\n\t\"start\": {\n\t\t\"dateTime\": \"{{new Date(lst_upcomingMeetings.triggeredItem.isoTime).toISOString()}}\"\n\t},\n\t\"end\": {\n\t\t\"dateTime\": \"{{new Date(moment(new Date().toISOString()).add(1, \"hour\"))}}\"\n\t},\n\t\"description\": {{inp_newMeetingAgenda.text}},\n\t\"summary\": \"{{inp_newEventTitle.text}}\",\n\t\"attendees\": {{msl_eventAttendees.selectedOptionValues.map(v => {return {email: v}})}}\n}",
+      "body": "{\n\t\"start\": {\n\t\t\"dateTime\": \"{{new Date(lst_upcomingMeetings.triggeredItem.isoTime).toISOString()}}\"\n\t},\n\t\"end\": {\n\t\t\"dateTime\": \"{{new Date(moment(new Date().toISOString()).add(1, \"hour\"))}}\"\n\t},\n\t\"description\": {{inp_newMeetingAgenda.text}},\n\t\"summary\": \"{{inp_newEventTitle.text}}\",\n\t\"attendees\": {{msl_eventAttendees.selectedOptionValues.map(v => {return {email: v}})}},\n\t\"timezone\": \"IST\"\n}",
       "bodyFormData": [],
       "encodeParamsToggle": true,
       "formData": {

@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-  "bottomRow": 31,
+  "bottomRow": 32,
   "displayName": "Text",
   "dynamicBindingPathList": [
     {
@@ -30,8 +30,8 @@
   "mobileLeftColumn": 0,
   "mobileRightColumn": 16,
   "mobileTopRow": 21,
-  "originalBottomRow": 30,
-  "originalTopRow": 25,
+  "originalBottomRow": 31,
+  "originalTopRow": 27,
   "overflow": "NONE",
   "parentColumnSpace": 12.8603515625,
   "parentId": "0vcfbh3omk",
