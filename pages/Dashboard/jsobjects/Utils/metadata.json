@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "669a10ce524ecb036c6ebad8_9ba9b165-bbab-427b-96af-7c72fe383631",
+  "id": "Dashboard_Utils",
+  "unpublishedCollection": {
+    "name": "Utils",
+    "pageId": "Dashboard",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "activeOrderHistory",
+        "value": "{}"
+      }
+    ]
+  }
+}

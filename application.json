@@ -6,6 +6,14 @@
   "evaluationVersion": 2,
   "pages": [
     {
+      "id": "Calendar Mobile",
+      "isDefault": false
+    },
+    {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
     }
