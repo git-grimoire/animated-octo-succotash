@@ -102,7 +102,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"]))}}",
+      "computedValue": "{{Table1_new.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"gender\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -136,7 +136,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "text",
-      "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+      "computedValue": "{{Table1_new.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -177,5 +177,5 @@
   "version": 2,
   "verticalAlignment": "CENTER",
   "widgetId": "myet579ayl",
-  "widgetName": "Table1"
+  "widgetName": "Table1_new"
 }
